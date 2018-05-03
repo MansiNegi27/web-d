@@ -1,0 +1,99 @@
+body{
+
+}
+.follow{
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap:10px;
+	font-family: ubuntu;
+}
+
+.affix{
+	top:0;
+	width:100%;
+	z-index: 9999 !important;
+}
+#followus{
+	background:grey;
+	color:white;
+}
+.nav{
+	background:url("metal.jpg");
+	border-radius: 0px 0px 3px 3px;
+}
+.modal-header{
+	background:url("metal.jpg");
+    font-size: 20px;
+    color:white;	
+}
+a{
+	color:white;
+}
+#Register{
+	
+	font-family: ubuntu;
+	border:2px;
+	border-color: white;
+	border-radius: 2px;
+	border-style:outset;
+}
+.register{
+	background:url("metal.jpg");
+	width:120px;
+	height:45px;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color:white;
+	border-radius: 3px;
+	font-size: 20px;
+}
+.register:hover{
+	background: white;
+	color:black;
+}
+.col-sm-2{
+	color: white;
+	font-size: 18px;
+}
+.f1{
+	color: black;
+	font-size: 18px;
+}
+#login1{
+	margin:5px;
+	background:none;
+	color: white;
+	font-size: 14px;
+
+}
+#login1:hover{
+	background:white;
+	color:darkgrey;
+}
+.register1{
+	color:black;
+	padding:4px;
+	border:2px;
+	position: relative;
+	left:50px;
+}
+.register1:hover{
+    
+    color:black;
+    
+    border:1px ;
+    border-style: dashed;
+    border-color:black;
+}
+.submit1:hover{
+	background-color: darkgrey;
+	border:1px;
+	border-style: solid;
+	border-color: black;
+	color:white;
+}
+.submit1{
+	background-color: lightgrey;
+
+}
